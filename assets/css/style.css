@@ -9125,3 +9125,7 @@ ul {
   padding-left: 1rem;
   margin: 0;
 }
+.bg-primary{
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
