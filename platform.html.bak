@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Splendin - Creating a world class technology platform which can add significant value to its stakeholders" />
+  <link rel="icon" href="assets/images/favicon/favicon.png">
+  <title>Splendin | Next-Gen Payment & Lending Platform</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Unbounded:wght@400;500;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="preloader">
+      <div class="loading"><img src="assets/images/logo/logo-light-bg.png" id="myDIV" alt="logo"></div>
+    </div><!-- /.preloader -->
+
+    <!-- =========================
+        Header
+    =========================== -->
+    <header class="header header-transparent header-layout1">
+     <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-item-link active">Home</a>
+              </li><!-- /.nav-item -->
+              <li class="nav-item has-dropdown">
+                <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="#" class="nav-item-link">Platform Overview</a>
+                  </li><!-- /.nav-item -->
+                  <li class="nav-item">
+                    <a href="#" class="nav-item-link">Enterprise Product Suite</a>
+                  </li><!-- /.nav-item -->
+                  <li class="nav-item">
+                    <a href="#" class="nav-item-link">Design Studio</a>
+                  </li><!-- /.nav-item -->
+                  <li class="nav-item">
+                    <a href="#" class="nav-item-link">Technology</a>
+                  </li><!-- /.nav-item -->
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.nav-item -->
+              <li class="nav-item has-dropdown">
+                <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Solutions</a>
+                <ul class="dropdown-menu wide-dropdown-menu">
+                  <li class="nav-item">
+                    <div class="row mx-0">
+                      <div class="col-sm-6 dropdown-menu-col">
+                        <a href="services.html" class="nav-item-link dropdown-menu-title">Payment Solution</a>
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Card Issuing</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Debit Card</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Prepaid Card</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Loyalty Card</a>
+                          </li> <!-- /.nav-item -->
+                        </ul>
+                      </div><!-- /.col-sm-6 -->
+                      <div class="col-sm-6 dropdown-menu-col">
+                        <a href="industries.html" class="nav-item-link dropdown-menu-title">Lending Solution</a>
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Cosumer Loan</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">UPI Credit Line</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Personal Loan</a>
+                          </li> <!-- /.nav-item -->
+                          <li class="nav-item">
+                            <a class="nav-item-link" href="#">Cosumer Durable Loan</a>
+                          </li> <!-- /.nav-item -->
+                          <!-- /.nav-item -->
+                        </ul>
+                      </div><!-- /.col-sm-6 -->
+                    </div><!-- /.row -->
+                  </li><!-- /.nav-item -->
+                </ul>
+              </li><!-- /.nav-item -->
+              <li class="nav-item">
+                <a href="#" data-bs-toggle="dropdown" class="nav-item-link">Industry</a>
+              </li><!-- /.nav-item -->
+			  <li class="nav-item">
+                <a href="about-us.html" data-bs-toggle="dropdown" class="nav-item-link">About Us</a>
+              </li><!-- /.nav-item -->
+			  <li class="nav-item">
+                <a href="contact-us.html" data-bs-toggle="dropdown" class="nav-item-link">Contact Us</a>
+              </li><!-- /.nav-item -->
+              
+            </ul><!-- /.navbar-nav -->
+            <button class="close-mobile-menu d-flex justify-content-center align-items-center d-lg-none">
+              <i class="icon-close"></i>
+            </button>
+          </div><!-- /.navbar-collapse -->
+          <ul class="navbar-actions d-flex flex-row-reverse flex-lg-row align-items-center list-unstyled mb-0">
+            <li>
+              <a href="#"
+                class="btn btn-white btn-white-style2 action-btn action-btn-contact arrow-hover-flip-up">
+                <span>Request a demo</span>
+                <svg class="arrow-flip" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="10" height="10"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g class="arrow-flip-path-1">
+                    <path
+                      d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                      fill="currentColor"></path>
+                  </g>
+                  <g class="arrow-flip-path-2">
+                    <path
+                      d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                      fill="currentColor"></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <!--<li>
+              <button class="action-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchOffcanvas"
+                aria-controls="searchOffcanvas">
+                <i class="icon-search"></i>
+              </button>
+            </li>
+            <li>
+              <button class="action-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenuOffcanvas"
+                aria-controls="sideMenuOffcanvas">
+                <i class="icon-bars"></i>
+              </button>
+            </li>-->
+          </ul>
+        </div><!-- /.container -->
+      </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section class="page-title-layout4 page-title-light bg-parallax bg-overlay">
+      <div class="bg-img"><img src="assets/images/page-titles/10.webp" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <h1 class="pagetitle-heading">Platform  Overview</h1>
+            <nav>
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Platform</li>
+              </ol>
+            </nav>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <section class="pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <aside class="sidebar has-marign-right sticky-top mb-30">
+              <div class="widget widget-categories">
+                <h5 class="widget-title">Enterprise Product Suite</h5>
+                <div class="widget-content">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="#"><span>Foundation Modules</span><i class="icon-arrow-up-right"></i></a></li>
+                    <li><a href="#"><span>CRM Module</span><i class="icon-arrow-up-right"></i></a></li>
+                    <li><a href="#"><span>Origination Module</span><i class="icon-arrow-up-right"></i></a></li>
+                    <li><a href="#"><span>Core Module</span><i class="icon-arrow-up-right"></i></a></li>
+                    <li><a href="#"><span>Collection Module</span><i class="icon-arrow-up-right"></i></a></li>
+                  </ul>
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-categories -->
+              <div class="widget widget-help bg-overlay bg-overlay-primary">
+                <div class="bg-img"><img src="assets/images/banners/5.webp" alt="background"></div>
+                <div class="widget-content">
+                  <h4 class="widget-title">Tailored Solutions For Your Security Priorities</h4>
+                  <p class="widget-desc mb-50">We will design, install, and upgrade solutions to meet
+                    business specific needs and budgets from large.
+                  </p>
+                  <a href="contact-us.html"
+                    class="btn btn-white btn-xl btn-block justify-content-between same-hover arrow-hover-flip-up">
+                    <span>Join Our Community</span>
+                    <svg class="arrow-flip" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="12" height="12"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g class="arrow-flip-path-1">
+                        <path
+                          d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                          fill="currentColor"></path>
+                      </g>
+                      <g class="arrow-flip-path-2">
+                        <path
+                          d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                          fill="currentColor"></path>
+                      </g>
+                    </svg>
+                  </a>
+                  <a href="https://7oroof.com/cdn-cgi/l/email-protection#e48588888d858a9ea4d38b968b8b82ca878b89" class="phone-number mt-30 mb-0">
+                    <i class="icon-email"></i> <span class="mx-2"><span class="__cf_email__" data-cfemail="7d1c1111141c13073d4a120f12121b531e1210">[email&#160;protected]</span></span>
+                  </a>
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-help -->
+            </aside><!-- /.sidebar -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-8">
+		  <div class="text-block mb-30">
+              <h5 class="text-block-title">Platform Overview</h5>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 pr-xl-60">
+                  <p class="text-block-desc mb-20">Dynamic market conditions, changing customer preferences and regulatory compliances require businesses to stay competitive and agile to achieve growth & Profitability.</p>
+              <p class="text-block-desc mb-20">Splendin platform, leverages out-of-the-box Enterprise Product Suite along with a designer studio to personalize Business applications.</p>
+			  <h4>Go-to-market in weeks & not months</h4>
+			  <p>Splendin Platform enables design, configuration & personalization of business applications for a faster Go-to-market. Hyper-personalize customer experience with tailored offerings across products to maximize growth, reduce risk and improve profitability.</p>
+			  <p>Modular Platform with off-the-shelf products enable businesses to quickly launch their products to market, increase customer engagement and boost revenue. With the power of Domain Data Model coupled with Designer Studio, explore business opportunities to create unique customer journeys, enable hyper personalized products, and more. Splendin Platform’s Microservices oriented architecture and API first design, allows businesses to quickly set up, configure and deliver features to customers.</p>
+                </div><!-- /.col-md-6 -->
+                <div class="col-sm-6 col-md-6">
+                  <img src="assets/images/charts/1.png" alt="chart">
+                </div><!-- /.col-md-6 -->
+              </div><!-- /.row -->
+            </div><!-- /.text-block -->
+            <div class="video-banner-layout03 mb-50">
+              <img src="assets/images/banners/12.webp" alt="banner">
+              <a class="video-btn centred-btn glightbox"
+                href="https://www.youtube.com/watch?v=pAeEAfPglWI&amp;ab_channel=EnvatoTuts%2B">
+                <div class="video-player">
+                  <i class="icon-play"></i>
+                </div>
+              </a>
+            </div><!-- /.video-banner -->    
+            <div class="text-block mb-50">
+              <h5 class="text-block-title">Why Splendin Platform</h5>
+              <p class="text-block-desc mb-20">Organizations choose Business Applications based on their unique needs. These typically include bespoke Application Development, Enterprise off the shelf product and SaaS Product. With Splendin Platform get the best of both worlds viz the standardization of Product and Flexibility of Service giving a customized product at speed.</p>
+              <img src="assets/images/charts/4.png" alt="chart" class="mb-50">
+			  
+            </div><!-- /.text-block -->
+            <div class="text-block mb-30">
+              <h5 class="text-block-title">Stats & Charts</h5>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 pr-xl-60">
+                  <p class="text-block-desc mb-20">When an employee or patient tests COVID positive, you should
+                    temporarily shut your doors. Our team can help you quickly open up again as our network of local
+                    businesses ensures fast response times and excellent care from a team that is equipped with the
+                    advanced tools and technology in adherence to CDC guidelines to get your facility safely open again.
+                  </p>
+                  <p class="text-block-desc mb-20">Switching from after-hours to a daytime cleaning program can reduce
+                    your cleaning costs as well as energy expenses. Since no cleaning staff is required on-site after
+                    hours, there's no need for running lights or building heating/cooling, and your doors stay locked at
+                    the end of the day. </p>
+                  <p class="text-block-desc mb-20">To keep your business running uninterrupted, we offer cost effective
+                    daytime janitorial cleaning services. </p>
+                </div><!-- /.col-md-6 -->
+                <div class="col-sm-12 col-md-6">
+                  <img src="assets/images/charts/1.png" alt="chart">
+                </div><!-- /.col-md-6 -->
+              </div><!-- /.row -->
+            </div><!-- /.text-block -->
+          </div><!-- /.col-lg-8 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section>
+
+    <!-- ========================
+      Testimonials Layout 1
+    =========================== -->
+    <section class="testimonials-layout1 pb-80">
+      <div class="container">
+        <div class="row sticky-top">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-6">
+            <div class="heading-layout2 mb-50">
+              <h2 class="heading-subtitle">What Our Customers Feel About Our Services!</h2>
+              <h3 class="heading-title">When our customers succeed, so do we!!</h3>
+            </div> <!-- /.heading-layout2 -->
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6 offset-xl-6">
+            <div class="testimonials-box">
+              <div class="swiper"
+                data-swiper='{"slidesPerView":1,"loop":true, "autoplay":{"delay":"8000"},  "navigation": {"nextEl": ".swiper-button-next-2","prevEl": ".swiper-button-prev-2"}}'>
+                <div class="swiper-wrapper">
+                  <!-- Testimonial #1 -->
+                  <div class="swiper-slide testimonial-item">
+                    <h3 class="testimonial-title">It’s been an excellent experience. Allianz team of consultants is a
+                      trusted partner; they took the necessary time to understand our operations and needs, which was
+                      essential for our providers and clients. They were professionals and made the right changes and
+                      adjustments to align project team with our culture and needs.
+                    </h3>
+                    <div class="testimonial-meta d-flex align-items-center">
+                      <div class="testimonial-avatar">
+                        <img src="assets/images/testimonials/avatars/1.webp" alt="avatar">
+                      </div><!-- /.testimonial-avatar -->
+                      <div>
+                        <h4 class="testimonial-meta-title">Dana Wade Sr</h4>
+                        <p class="testimonial-meta-desc">allianz Inc</p>
+                      </div>
+                    </div><!-- /.testimonial-meta -->
+                  </div><!-- /. testimonial-item -->
+                  <!-- Testimonial #2 -->
+                  <div class="swiper-slide testimonial-item">
+                    <h3 class="testimonial-title">It’s been an excellent experience. Allianz team of consultants is a
+                      trusted partner; they took the necessary time to understand our operations and needs, which was
+                      essential for our providers and clients. They were professionals and made the right changes and
+                      adjustments to align project team with our culture and needs.
+                    </h3>
+                    <div class="testimonial-meta d-flex align-items-center">
+                      <div class="testimonial-avatar">
+                        <img src="assets/images/testimonials/avatars/2.webp" alt="avatar">
+                      </div><!-- /.testimonial-avatar -->
+                      <div>
+                        <h4 class="testimonial-meta-title">Ann John</h4>
+                        <p class="testimonial-meta-desc">optime Inc</p>
+                      </div>
+                    </div><!-- /.testimonial-meta -->
+                  </div><!-- /. testimonial-item -->
+                </div><!-- /.swiper-wrapper-->
+                <div class="swiper-button-prev-2 icon-arrow-left"></div>
+                <div class="swiper-button-next-2 icon-arrow-right"></div>
+              </div><!-- /.swiper-->
+            </div><!-- /.testimonial-box -->
+          </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Testimonials Layout 1 -->
+
+    <!-- ======================
+     Clients
+    ========================= -->
+    <section class="clients border-top pt-50 pb-50">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="swiper"
+              data-swiper='{"slidesPerView":2,"spaceBetween":20,"autoplay":{"delay":"6000"}, "loop":true,"breakpoints":{"400":{"slidesPerView":3},"550":{"slidesPerView":4}, "992":{"slidesPerView":5},"1200":{"slidesPerView":6}} }'>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/2.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/8.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/9.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/1.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/10.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/11.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+                <div class="swiper-slide client">
+                  <img src="assets/images/clients/3.png" alt="client" loading="lazy">
+                </div><!-- /.client -->
+              </div><!-- /.swiper-rapper -->
+            </div><!-- /.swiper -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Clients -->
+
+    <!-- ==========================
+        contact layout 3
+    =========================== -->
+    <section class="contact-layout3 bg-overlay video-overlay">
+      <div data-vbg="https://www.youtube.com/watch?v=PHwuv-gsoI4" data-vbg-poster="assets/images/banners/7.webp"
+        data-vbg-autoplay="true" data-vbg-loop="true" data-vbg-lazyloading="true">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-10 col-xl-8 offset-lg-2 offset-xl-4">
+            <div class="contact-panel bg-white-blured">
+              <form class="contact-panel-form" method="post" action="https://7oroof.com/demos/allianz/assets/php/contact.php" id="contactForm">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h4 class="contact-panel-title">Interested in cooperation or have questions?</h4>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="contact-name">Your Name</label>
+                      <input type="text" class="form-control" placeholder="Mahmoud Adel" id="contact-name"
+                        name="contact-name" required>
+                    </div><!-- /.form-group -->
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="contact-email">Email Address</label>
+                      <input type="email" class="form-control" placeholder="Name@Allianz.com" id="contact-email"
+                        name="contact-email" required>
+                    </div><!-- /.form-group -->
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="contact-Phone">Phone Number</label>
+                      <input type="text" class="form-control" placeholder="Phone Number" id="contact-Phone"
+                        name="contact-phone" autocomplete="off" required>
+                    </div>
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                      <label for="company-name">Company Name</label>
+                      <input type="text" class="form-control" placeholder="Company Name" id="company-name"
+                        name="company-name" required>
+                    </div><!-- /.form-group -->
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="contact-message">Business Description</label>
+                      <textarea class="form-control"
+                        placeholder="Kindly provide enough information about your business..." id="contact-message"
+                        name="contact-message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary same-hover arrow-hover-flip-up mt-30">
+                      <span>Submit Request</span>
+                      <svg class="arrow-flip" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="12"
+                        height="12" xmlns="http://www.w3.org/2000/svg">
+                        <g class="arrow-flip-path-1">
+                          <path
+                            d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                            fill="currentColor"></path>
+                        </g>
+                        <g class="arrow-flip-path-2">
+                          <path
+                            d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                            fill="currentColor"></path>
+                        </g>
+                      </svg>
+                    </button>
+                    <div class="contact-result"></div>
+                  </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+              </form> <!-- /.contact-panel-form -->
+            </div> <!-- /.contact-panel -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.contact layout 3 -->
+
+    <!-- ========================
+      Footer
+    ========================== -->
+    <footer class="footer">
+      <div class="footer-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="footer-widget-about">
+                <h6 class="footer-widget-title">Sign up for alerts, monthly insights, strategic business perspectives
+                  and exclusive content in your inbox.
+                </h6>
+                <a href="contact-us.html" class="btn btn-white arrow-hover-flip-up">
+                  <span>Subscribe</span>
+                  <svg class="arrow-flip" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="12" height="12"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g class="arrow-flip-path-1">
+                      <path
+                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                        fill="currentColor"></path>
+                    </g>
+                    <g class="arrow-flip-path-2">
+                      <path
+                        d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                        fill="currentColor"></path>
+                    </g>
+                  </svg>
+                </a>
+              </div><!-- /.footer-widget-nav -->
+            </div><!-- /.col-xl-2 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+              <div class="footer-widget-nav">
+                <h6 class="footer-widget-title">Company</h6>
+                <nav>
+                  <ul class="footer-nav-list list-unstyled">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="shop.html">Sustainability</a></li>
+                    <li><a href="team.html">Leadership Team</a></li>
+                    <li><a href="blog.html">News & Media</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-nav -->
+            </div><!-- /.col-lg-2 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+              <div class="footer-widget-nav">
+                <h6 class="footer-widget-title">Services</h6>
+                <nav>
+                  <ul class="footer-nav-list list-unstyled">
+                    <li><a href="services-single.html">Financial Planning</a></li>
+                    <li><a href="services-single.html">Wealth Management</a></li>
+                    <li><a href="services-single.html">Portfolio Consulting</a></li>
+                    <li><a href="services-single.html">Mergers & Acquisitions</a></li>
+                    <li><a href="services-single.html">Sustainability Assurance</a></li>
+                    <li><a href="services-single.html">Crisis Management</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-nav -->
+            </div><!-- /.col-lg-2 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+              <div class="footer-widget-nav">
+                <h6 class="footer-widget-title">Industries</h6>
+                <nav>
+                  <ul class="footer-nav-list list-unstyled">
+                    <li><a href="#">Banking & Finance</a></li>
+                    <li><a href="#">Sciences & Healthcare</a></li>
+                    <li><a href="#">Technology & Software</a></li>
+                    <li><a href="#">Education & Training</a></li>
+                    <li><a href="contact-us.html">Hospitality & Leisure</a></li>
+                    <li><a href="contact-us.html">Power & Utilities</a></li>
+                  </ul>
+                </nav>
+              </div><!-- /.footer-widget-nav -->
+            </div><!-- /.col-lg-2 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+              <div class="footer-widget-nav">
+                <h6 class="footer-widget-title">Quick Contacts</h6>
+                <ul class="footer-nav-list contact-list list-unstyled">
+                  <li><a href="https://7oroof.com/cdn-cgi/l/email-protection#3f5e5353565e51457f08504d505059115c5052"><span class="__cf_email__" data-cfemail="83e2efefeae2edf9c3b4ecf1ecece5ade0ecee">[email&#160;protected]</span></a></li>
+                  <li><a href="tel:00201161145741">+2 011 6114 5741</a></li>
+                </ul>
+                <ul class="social-icons social-icons-light list-unstyled mb-0">
+                  <li><a href="#"><i class="social-icon icon-facebook-circle"></i></a>
+                  </li>
+                  <li><a href="#"><i class="social-icon icon-twitter-circle"></i></a>
+                  </li>
+                  <li><a href="#"><i class="social-icon icon-youtube-circle"></i></a></li>
+                </ul>
+              </div><!-- /.footer-widget-contact -->
+            </div><!-- /.col-lg-2 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.footer-primary -->
+      <div class="footer-secondary">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <a href="contact-us.html#contact"
+                class="contatct-text d-flex justify-content-between arrow-hover-flip-up">
+                <span class="contact-text-title">Get In Touch</span>
+                <svg class="arrow-flip" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="100" height="100"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g class="arrow-flip-path-1">
+                    <path
+                      d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                      fill="currentColor"></path>
+                  </g>
+                  <g class="arrow-flip-path-2">
+                    <path
+                      d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+                      fill="currentColor"></path>
+                  </g>
+                </svg>
+              </a>
+            </div><!-- /.col-12 -->
+            <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+              <div class="footer-copyrights my-2">
+                <span class="fz-14">&copy; 2025 allianz, All Rights Reserved. With Love by </span>
+                <a class="fz-14 color-white" href="http://themeforest.net/user/7oroof">7oroof.com</a>
+              </div>
+              <nav>
+                <ul class="footer-copyright-links d-flex align-items-center list-unstyled flex-wrap my-2">
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Site Map</a></li>
+                </ul>
+              </nav>
+            </div><!-- /.col-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.footer-secondary -->
+    </footer><!-- /.Footer -->
+  </div><!-- /.wrapper -->
+  <!-- Search offcanvas -->
+  <div class="offcanvas offcanvas-top search-offcanvas" tabindex="-1" id="searchOffcanvas">
+    <div class="offcanvas-header">
+      <form class="search-form d-flex align-items-center">
+        <button class="search-btn"><i class="icon-search"></i></button>
+        <input type="text" class="form-control" placeholder="Type Words Then Enter..." autofocus>
+      </form>
+      <button type="button" class="close-search" data-bs-dismiss="offcanvas" aria-label="Close">
+        <i class="icon-close"></i>
+      </button>
+    </div>
+  </div> <!-- /.Search offcanvas -->
+  <!-- Side Menu offcanvas -->
+  <div class="offcanvas offcanvas-end sidemenu-offcanvas" tabindex="-1" id="sideMenuOffcanvas">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="bg-img"><img src="assets/images/logo/logo-light-bg.png" alt=""></div>
+      <img src="assets/images/logo/logo-dark.png" class="sidemenu-logo" alt="logo" width="140">
+      <h5 class="sidemenu-title">Global consulting firm experienced in identifying, assessing, and solving all your
+        business
+        challenges!
+      </h5>
+      <a href="contact-us.html" class="btn btn-primary arrow-hover-flip-up">
+        <span>Get Started</span>
+        <svg class="arrow-flip" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="12" height="12"
+          xmlns="http://www.w3.org/2000/svg">
+          <g class="arrow-flip-path-1">
+            <path
+              d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+              fill="currentColor"></path>
+          </g>
+          <g class="arrow-flip-path-2">
+            <path
+              d="m56 6h-48c-1.104 0-2 .896-2 2s.896 2 2 2h43.171l-44.585 44.586c-.781.781-.781 2.047 0 2.828.391.391.902.586 1.414.586s1.024-.195 1.414-.586l44.586-44.586v43.172c0 1.104.896 2 2 2s2-.896 2-2v-48c0-1.104-.896-2-2-2z"
+              fill="currentColor"></path>
+          </g>
+        </svg>
+      </a>
+      <ul class="contact-list list-unstyled mb-30">
+        <li><a href="https://7oroof.com/cdn-cgi/l/email-protection#42232e2e2b232c3802752d302d2d246c212d2f"><span class="__cf_email__" data-cfemail="056469696c646b7f45326a776a6a632b666a68">[email&#160;protected]</span></a></li>
+        <li><a href="tel:00201161145741">+2 011 6114 5741</a></li>
+      </ul>
+      <ul class="social-icons list-unstyled mb-0">
+        <li><a href="#"><i class="social-icon icon-facebook-circle"></i></a>
+        </li>
+        <li><a href="#"><i class="social-icon icon-twitter-circle"></i></a>
+        </li>
+        <li><a href="#"><i class="social-icon icon-youtube-circle"></i></a></li>
+      </ul>
+    </div><!-- /.offcanvas-body -->
+  </div> <!-- /.Side Menu offcanvas -->
+
+  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/libraries.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from 7oroof.com/demos/allianz/services-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 May 2025 08:47:52 GMT -->
+</html>
