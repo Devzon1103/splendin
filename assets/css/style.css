@@ -9121,11 +9121,18 @@ textarea.form-control {
 }/*# sourceMappingURL=style.css.map */
 
 ul {
-  /* list-style: none; */
+  list-style: none;
   padding-left: 1rem;
   margin: 0;
 }
 .bg-primary{
   background-color: var(--color-primary) !important;
   color: white !important;
+}
+
+td p{
+  margin: 0;
+}
+.job-item ion-icon{
+  color: var(--color-primary);
 }
