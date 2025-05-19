@@ -9178,7 +9178,7 @@ td p{
   right: 0px;
   width: 40px; /* Adjust as needed */
   height: 40px;
-  background-image: url('/assets/images/icons/splendin-petal.png'); /* Update with your image path */
+  background-image: url('../images/icons/splendin-petal.png'); /* Update with your image path */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
