@@ -5214,7 +5214,7 @@ input[type=radio] {
   color: var(--color-white);
   border: 2px solid var(--color-white);
   margin-top: var(--arrow-btn-margin-top);
-  margin-inline-start: var(--arrow-btn-margin-inline);
+  /* margin-inline-start: var(--arrow-btn-margin-inline); */
 }
 .slider .slider-control {
   max-width: 510px;
@@ -9133,6 +9133,60 @@ ul {
 td p{
   margin: 0;
 }
+
+.job-item {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.job-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.job-item ion-icon {
+  font-size: 42px;
+  color: #007bff;
+  background-color: #f0f4f8;
+  border-radius: 50%;
+  padding: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.job-item:hover ion-icon {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* 🎯 Add image using ::after */
+.job-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 40px; /* Adjust as needed */
+  height: 40px;
+  background-image: url('/assets/images/icons/splendin-petal.png'); /* Update with your image path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8; /* Slight transparency */
+  pointer-events: none; /* So it doesn’t block hover or clicks */
+}
+
 .job-item ion-icon{
   color: var(--color-primary);
 }
+
