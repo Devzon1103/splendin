@@ -9151,7 +9151,7 @@ td p{
 
 .job-item ion-icon {
   font-size: 42px;
-  color: #007bff;
+  color: #00b0ef;
   background-color: #f0f4f8;
   border-radius: 50%;
   padding: 16px;
@@ -9159,7 +9159,7 @@ td p{
 }
 
 .job-item:hover ion-icon {
-  background-color: #007bff;
+  background-color: #00b0ef;
   color: #ffffff;
 }
 
@@ -9170,20 +9170,20 @@ td p{
   color: #333;
 }
 
-/* 🎯 Add image using ::after */
+
 .job-item::after {
   content: "";
   position: absolute;
   bottom: 0px;
   right: 0px;
-  width: 40px; /* Adjust as needed */
+  width: 40px; 
   height: 40px;
-  background-image: url('../images/icons/splendin-petal.png'); /* Update with your image path */
+  background-image: url('../images/icons/splendin-petal.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.8; /* Slight transparency */
-  pointer-events: none; /* So it doesn’t block hover or clicks */
+  opacity: 0.8; 
+  pointer-events: none; 
 }
 
 .job-item ion-icon{
