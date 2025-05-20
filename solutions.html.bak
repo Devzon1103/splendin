@@ -8,7 +8,7 @@
   <meta name="description"
     content="Splendin - Creating a world class technology platform which can add significant value to its stakeholders">
   <link rel="icon" href="assets/images/favicon/favicon.png">
-  <title>Platform - Splendin | Next-Gen Payment & Lending Platform</title>
+  <title>Solutions - Splendin | Next-Gen Payment & Lending Platform</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Unbounded:wght@400;500;700&amp;display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css">
@@ -24,10 +24,7 @@
       </div>
     </div>
     <!-- /.preloader -->
-    <!-- =========================
-        Header
-    =========================== -->
-    <header class="header header-transparent header-layout1">
+       <header class="header header-transparent header-layout1">
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -38,13 +35,7 @@
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-             <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
-               <li class="nav-item d-md-none mb-3">
-                    <a  href="index.html" class="nav-item-link">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
-                    </a>
-                  </li>
+             <ul class="navbar-nav ms-auto">
               <li class="nav-item has-dropdown">
                 <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
                 <ul class="dropdown-menu">
@@ -66,7 +57,6 @@
                 <a href="payment-solutions.html" data-bs-toggle="dropdown"
                   class="dropdown-toggle nav-item-link">Solutions</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
-                 
                   <li class="nav-item">
                     <div class="row mx-0">
                       <div class="col-sm-6 dropdown-menu-col">
@@ -117,13 +107,6 @@
               <li class="nav-item d-md-none">
                 <a href="contact-us.html" class="nav-item-link">Contact Us</a>
               </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <span  class="nav-item-link">
-
-                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
-                  <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
-                </span>
-              </li><!-- /.nav-item -->
 
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-flex justify-content-center align-items-center d-lg-none">
@@ -166,7 +149,6 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header>
-    <!-- /.Header -->
     <!-- page title  -->
     <section class="page-title-layout4 page-title-light bg-parallax bg-overlay">
       <div class="bg-img">
@@ -175,13 +157,13 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6">
-            <h1 class="pagetitle-heading">Platform Overview</h1>
+            <h1 class="pagetitle-heading">Solutions Overview</h1>
             <nav>
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item">
                   <a href="index.html">Home</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">Platform</li>
+                <li class="breadcrumb-item active" aria-current="page">Solutions</li>
               </ol>
             </nav>
           </div>
@@ -267,7 +249,7 @@
                       </g>
                     </svg>
                   </a>
-                  <a href="#"
+                  <a href="https://7oroof.com/cdn-cgi/l/email-protection#e48588888d858a9ea4d38b968b8b82ca878b89"
                     class="phone-number mt-30 mb-0">
                     <i class="icon-email"></i>
                     <span class="mx-2">
@@ -287,7 +269,7 @@
               <!-- Overview Tab -->
               <div class="tab-pane fade show active" id="overview" role="tabpanel">
                 <div class="text-block mb-30">
-                  <h5 class="text-block-title">Platform Overview</h5>
+                  <h5 class="text-block-title">Solutions Overview</h5>
                   <div class="row">
                     <div class="col-sm-12 col-md-7 pr-xl-60">
                       <p class="text-block-desc mb-20">Dynamic market conditions, changing customer preferences and
@@ -346,7 +328,7 @@
                       </p>
                     </div>
                     <div class="col-sm-6 col-md-5">
-                      <img src="assets/images/charts/5.png" alt="chart">
+                      <img src="https://ik.imagekit.io/de8z3t5gs/network-marketing-digital.jpg" alt="chart">
                     </div>
                   </div>
                 </div>
@@ -373,99 +355,7 @@
                     </p>
                   </div>
                   <div class="col-sm-6 col-md-5">
-                    <img src="assets/images/charts/6.png" alt="crm module">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <h4 class="mt-4 mb-2">Features</h4>
-
-                    <table class="table table-bordered table-hover">
-                      <thead class="bg-primary">
-                        <tr>
-                          <th class="bg-primary">
-                            Easy to setup, ease to use platform
-                          </th>
-                          <th class="bg-primary">
-                            Faster Application processing
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p class="mb-0">Single platform supports complete card origination capabilities.</p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Faster turnaround time to process the
-                                applications with right
-                                and suitable product offerings to customers.</span></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p class="mb-0"><strong><span data-contrast="auto">Fully Digital, Paperless
-                                  solution</span></strong> </p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><strong><span data-contrast="auto">Seamless Integration for Data
-                                  Sourcing</span></strong>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Full digital application processing
-                                solution</span></p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Seamlessly Integrate with various application
-                                sources via API
-                                designer solution</span></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p class="mb-0"><strong><span data-contrast="auto">API integrations</span></strong></p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><strong><span data-contrast="auto">Cross-Sell Offers</span></strong></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Integrate with Credit Bureaus, Fraud and Social
-                                information
-                                systems in real-time</span></p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Hyper personalized cross sell (up-sell or
-                                down-sell) offerings
-                                for better suitable products to customers</span></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p class="mb-0"><strong><span data-contrast="auto">Under Writing Queue
-                                  Mechanisms</span></strong></p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><strong><span data-contrast="auto">Integrated Workflows</span></strong></p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Easily set up under writing queues to review
-                                applications for
-                                additional information or exception processing</span></p>
-                          </td>
-                          <td>
-                            <p class="mb-0"><span data-contrast="auto">Define credit policy workflows for application
-                                processing</span></p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <img src="https://ik.imagekit.io/de8z3t5gs/crm-module.jpg" alt="crm module">
                   </div>
                 </div>
 
@@ -474,7 +364,7 @@
               <div class="tab-pane fade" id="origination" role="tabpanel">
                 <h5>Origination Module</h5>
                 <div class="row">
-                  <div class="col-sm-12 col-md-12 pr-xl-60">
+                  <div class="col-sm-12 col-md-7 pr-xl-60">
                     <p class="text-block-desc mb-20">
                       Accelerate digital application processing with next generation origination solution.
                     </p>
@@ -488,7 +378,10 @@
                       solution to process applications within minutes across retail, business and corporate portfolio.
                     </p>
                   </div>
-
+                  <div class="col-sm-6 col-md-5">
+                    <img src="https://ik.imagekit.io/de8z3t5gs/Digital-Origination.jpg"
+                      alt="Digital-Origination-Process">
+                  </div>
                 </div>
 
               </div>
@@ -497,7 +390,7 @@
                 <h5>Core Module</h5>
                 <div class="row">
 
-                  <div class="col-sm-12 col-md-12 pr-xl-60">
+                  <div class="col-sm-12 col-md-7 pr-xl-60">
                     <p class="text-block-desc mb-20">
                       Empower customers with seamless transaction processing and efficient card control-based card
                       management solution.
@@ -512,7 +405,10 @@
                     </p>
 
                   </div>
-
+                  <div class="col-sm-6 col-md-5">
+                    <img src="https://ik.imagekit.io/de8z3t5gs/Digital-Origination.jpg"
+                      alt="Digital-Origination-Process">
+                  </div>
                 </div>
                 <div class="accordion my-3" id="accordion1">
 
@@ -581,7 +477,7 @@
                 <h5>Collection</h5>
                 <div class="row">
 
-                  <div class="col-sm-12 col-md-12 pr-xl-60">
+                  <div class="col-sm-12 col-md-7 pr-xl-60">
                     <p class="text-block-desc mb-20">
                       Leverage intelligent workflows, automated calling, and third-party agency integration to maximize
                       recovery rates and reduce delinquency. Splendin's Card Collection product offers end-to-end
@@ -594,7 +490,10 @@
                     </p>
 
                   </div>
-
+                  <div class="col-sm-6 col-md-5">
+                    <img src="https://ik.imagekit.io/de8z3t5gs/Digital-Origination.jpg"
+                      alt="Digital-Origination-Process">
+                  </div>
                 </div>
                 <div class="accordion my-3" id="accordion2">
 
@@ -655,18 +554,18 @@
                     <div class="col-12 pe-lg-0">
                       <div class="product-details">
                         <nav class="nav nav-tabs justify-content-start" role="tablist">
-                          <a class="nav-link small active" data-bs-toggle="tab" href="#DataModelDesigner"
-                            aria-selected="true" role="tab">Data Model Designer</a>
+                          <a class="nav-link small active" data-bs-toggle="tab" href="#DataModelDesigner" aria-selected="true"
+                            role="tab">Data Model Designer</a>
                           <a class="nav-link small" data-bs-toggle="tab" href="#ScreenDesigner" aria-selected="false"
                             role="tab" tabindex="-1">Screen </a>
-                          <a class="nav-link small" data-bs-toggle="tab" href="#RuleDesigner" aria-selected="false"
-                            role="tab" tabindex="-1">Rule </a>
+                          <a class="nav-link small" data-bs-toggle="tab" href="#RuleDesigner" aria-selected="false" role="tab"
+                            tabindex="-1">Rule </a>
                           <a class="nav-link small" data-bs-toggle="tab" href="#WorkflowDesigner" aria-selected="false"
                             role="tab" tabindex="-1">Workflow </a>
-                          <a class="nav-link small" data-bs-toggle="tab" href="#NotificationDesigner"
-                            aria-selected="false" role="tab" tabindex="-1">Notification </a>
-                          <a class="nav-link small" data-bs-toggle="tab" href="#APIDesigner" aria-selected="false"
-                            role="tab" tabindex="-1">API </a>
+                          <a class="nav-link small" data-bs-toggle="tab" href="#NotificationDesigner" aria-selected="false"
+                            role="tab" tabindex="-1">Notification </a>
+                          <a class="nav-link small" data-bs-toggle="tab" href="#APIDesigner" aria-selected="false" role="tab"
+                            tabindex="-1">API </a>
                         </nav>
                         <div class="tab-content mb-50" id="nav-tabContent">
                           <div class="tab-pane fade active show" id="DataModelDesigner" role="tabpanel">
@@ -739,7 +638,9 @@
       </div>
     </section>
 
-    <section class="careers pt-4">
+   
+
+    <section class="careers">
       <div class="container">
         <div class="row heading-layout2  mb-30">
           <div class="col-sm-12 col-md-12 col-lg-6">
@@ -755,15 +656,12 @@
             </p>
           </div>
         </div>
-
-        <h2 class="heading-subtitle"> Key Features</h2>
-        <h3 class="heading-title fs-4 text-black pr-50">Modern Technology: Built for Performance, Scalability, and Security</h3>
-
         <div class="row justify-content-center">
+          <!-- job item #1 -->
+
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="cloud-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Multi-Cloud & On-Prem Flexibility</h4>
+            <div class="job-item">
+              <h4 class="job-title">Multi-Cloud & On-Prem Flexibility</h4>
               <ul class="job-desc">
                 <li>On-Premise</li>
                 <li>Microsoft Azure</li>
@@ -771,11 +669,9 @@
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="shield-checkmark-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Security & Compliance</h4>
+            <div class="job-item">
+              <h4 class="job-title">Security & Compliance</h4>
               <ul class="job-desc">
                 <li>Azure AD, OAuth 2.0, JWT</li>
                 <li>SSL/TLS, AES Encryption</li>
@@ -783,11 +679,9 @@
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="layers-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Modular Architecture</h4>
+            <div class="job-item">
+              <h4 class="job-title">Modular Architecture</h4>
               <ul class="job-desc">
                 <li>Modular Component Design</li>
                 <li>Efficient Data Management</li>
@@ -795,11 +689,9 @@
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="desktop-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Frontend</h4>
+            <div class="job-item">
+              <h4 class="job-title">Frontend</h4>
               <ul class="job-desc">
                 <li>ASP.NET Web Forms</li>
                 <li>JavaScript, JQuery</li>
@@ -807,11 +699,9 @@
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="server-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Backend & Middleware</h4>
+            <div class="job-item">
+              <h4 class="job-title">Backend & Middleware</h4>
               <ul class="job-desc">
                 <li>.NET Core</li>
                 <li>Kubernetes, Docker</li>
@@ -819,11 +709,9 @@
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="code-slash-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">APIs</h4>
+            <div class="job-item">
+              <h4 class="job-title">APIs</h4>
               <ul class="job-desc">
                 <li>OpenAPI</li>
                 <li>Swagger</li>
@@ -831,39 +719,35 @@
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="server-outline" size="large"></ion-icon>
-
-              <h4 class="job-title mt-2">Data Management</h4>
+            <div class="job-item">
+              <h4 class="job-title">Data Management</h4>
               <ul class="job-desc">
                 <li>MongoDB</li>
                 <li>Kafka</li>
               </ul>
             </div>
           </div>
-
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="git-branch-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Version Control & CI/CD</h4>
+            <div class="job-item">
+              <h4 class="job-title">Version Control & CI/CD</h4>
               <ul class="job-desc">
                 <li>GitLab</li>
                 <br>
               </ul>
             </div>
           </div>
+          <div class=" d-none d-lg-block col-sm-6 col-lg-4 mb-4">
 
-          <div class="d-none d-lg-block col-sm-6 col-lg-4 mb-4"></div>
+          </div>
+
+
+
 
         </div>
-
-
-
         <div class="text-center mt-30">
 
-          <a href="modern-technology-architecture.html" class="btn btn-primary same-hover arrow-hover-flip-up">
+          <a href="#" class="btn btn-primary same-hover arrow-hover-flip-up">
             <span>Dive Deeper</span>
             <svg class="arrow-flip" style="rotate: 135deg;" enable-background="new 0 0 64 64" viewBox="0 0 64 64"
               width="12" height="12" xmlns="http://www.w3.org/2000/svg">
@@ -885,7 +769,7 @@
 
 
 
-   <footer class="footer">
+<footer class="footer">
       <div class="footer-primary">
         <div class="container">
           <div class="row">
@@ -1020,7 +904,6 @@
         </div><!-- /.container -->
       </div><!-- /.footer-secondary -->
     </footer>
-    <!-- /.Footer -->
   </div>
   <!-- /.wrapper -->
   <!-- Search offcanvas -->
@@ -1118,7 +1001,6 @@
       });
     });
   </script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
 </body>

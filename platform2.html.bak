@@ -2,28 +2,31 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description"
-    content="Splendin - Creating a world class technology platform which can add significant value to its stakeholders" />
-  <link rel="icon" href="assets/images/favicon/favicon.png" />
-  <title>Industry - Splendin | Next-Gen Payment & Lending Platform</title>
+    content="Splendin - Creating a world class technology platform which can add significant value to its stakeholders">
+  <link rel="icon" href="assets/images/favicon/favicon.png">
+  <title>Modern Technology Architecture - Splendin | Next-Gen Payment & Lending Platform</title>
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Unbounded:wght@400;500;700&amp;display=swap" />
-  <link rel="stylesheet" href="assets/css/libraries.css" />
-  <link rel="stylesheet" href="assets/css/icons.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Unbounded:wght@400;500;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
   <div class="wrapper">
     <div class="preloader">
       <div class="loading">
-        <img src="assets/images/logo/logo-light-bg.png" id="myDIV" alt="logo" />
+        <img src="assets/images/logo/logo-light-bg.png" id="myDIV" alt="logo">
       </div>
     </div>
     <!-- /.preloader -->
+    <!-- =========================
+        Header
+    =========================== -->
     <header class="header header-transparent header-layout1">
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
@@ -35,13 +38,7 @@
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-             <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
-               <li class="nav-item d-md-none mb-3">
-                    <a  href="index.html" class="nav-item-link">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
-                    </a>
-                  </li>
+             <ul class="navbar-nav ms-auto">
               <li class="nav-item has-dropdown">
                 <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
                 <ul class="dropdown-menu">
@@ -63,7 +60,6 @@
                 <a href="payment-solutions.html" data-bs-toggle="dropdown"
                   class="dropdown-toggle nav-item-link">Solutions</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
-                 
                   <li class="nav-item">
                     <div class="row mx-0">
                       <div class="col-sm-6 dropdown-menu-col">
@@ -114,13 +110,6 @@
               <li class="nav-item d-md-none">
                 <a href="contact-us.html" class="nav-item-link">Contact Us</a>
               </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <span  class="nav-item-link">
-
-                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
-                  <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
-                </span>
-              </li><!-- /.nav-item -->
 
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-flex justify-content-center align-items-center d-lg-none">
@@ -163,25 +152,22 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header>
-    <!-- ========================
-       page title 
-    =========================== -->
+    <!-- /.Header -->
+    <!-- page title  -->
     <section class="page-title-layout4 page-title-light bg-parallax bg-overlay">
       <div class="bg-img">
-        <img src="assets/images/page-titles/7.webp" alt="background" />
+        <img src="assets/images/page-titles/10.webp" alt="background">
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1 class="pagetitle-heading">Industry Overview</h1>
+          <div class="col-12 col-lg-6">
+            <h1 class="pagetitle-heading">Modern Technology Architecture</h1>
             <nav>
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item">
                   <a href="index.html">Home</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Industry
-                </li>
+                <li class="breadcrumb-item active" aria-current="page">Modern Technology Architecture</li>
               </ol>
             </nav>
           </div>
@@ -191,50 +177,54 @@
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.page-title -->
-    <section class="pb-80">
+    <section class="pb-0">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4">
+          <!-- Tab Navigation -->
+          <div class="col-12 col-lg-4">
             <aside class="sidebar has-marign-right sticky-top mb-30">
-              <div class="widget widget-categories">
-                <h5 class="widget-title">Industry Overview</h5>
+              <div class="widget widget-categories ">
+                <h5 class="widget-title">Modern Technology Architecture</h5>
                 <div class="widget-content">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">
-                        <span>Overview</span>
+                  <ul class="nav flex-column nav-pills" id="productTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="overview-tab" data-bs-toggle="pill" href="#overview" role="tab">
+                        <span>Multi Cloud & On-Prem Flexibility</span>
                         <i class="icon-arrow-up-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="payment-solutions.html">
-                        <span>Payment Solutions</span>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="foundation-tab" data-bs-toggle="pill" href="#foundation" role="tab">
+                        <span>Security</span>
                         <i class="icon-arrow-up-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="lending-solutions.html">
-                        <span>Lending Solutions</span>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="crm-tab" data-bs-toggle="pill" href="#crm" role="tab">
+                        <span>Modular Architecture</span>
                         <i class="icon-arrow-up-right"></i>
                       </a>
                     </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="origination-tab" data-bs-toggle="pill" href="#origination" role="tab">
+                        <span>Modern Tech Stack</span>
+                        <i class="icon-arrow-up-right"></i>
+                      </a>
+                    </li>
+
                   </ul>
                 </div>
-                <!-- /.widget-content -->
               </div>
-              <!-- /.widget-categories -->
+
               <div class="widget widget-help bg-overlay bg-overlay-primary">
                 <div class="bg-img">
-                  <img src="assets/images/banners/5.webp" alt="background" />
+                  <img src="assets/images/banners/5.webp" alt="background">
                 </div>
                 <div class="widget-content">
-                  <h4 class="widget-title">
-                    Tailored Solutions For Your Security Priorities
-                  </h4>
+                  <h4 class="widget-title">Tailored Solutions For Your Security Priorities</h4>
                   <p class="widget-desc mb-50">
-                    We will design, install, and upgrade solutions to meet
-                    business specific needs and budgets from large.
+                    We will design, install, and upgrade solutions to meet business specific needs and budgets from
+                    large.
                   </p>
                   <a href="contact-us.html"
                     class="btn btn-white btn-xl btn-block justify-content-between same-hover arrow-hover-flip-up">
@@ -253,7 +243,7 @@
                       </g>
                     </svg>
                   </a>
-                  <a href="#"
+                  <a href="https://7oroof.com/cdn-cgi/l/email-protection#e48588888d858a9ea4d38b968b8b82ca878b89"
                     class="phone-number mt-30 mb-0">
                     <i class="icon-email"></i>
                     <span class="mx-2">
@@ -264,122 +254,259 @@
                 </div>
                 <!-- /.widget-content -->
               </div>
-              <!-- /.widget-help -->
-            </aside>
-            <!-- /.sidebar -->
-          </div>
-          <!-- /.col-lg-4 -->
-          <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="text-block mb-30">
-              <div class="row mb-30">
-                <div class="col-12  col-lg-7 pr-xl-60">
-                  <h2 class="heading-subtitle">Industry Overview</h2>
-                  <h3 class=" mb-30">Banks & NBFCs</h3>
-                  <p class="text-block-desc mb-20">
-                    Splendin offers a modern off-the-shelf Enterprise Product
-                    Suite customizable to Banks and NBFCs for payments and
-                    lending products.
-                  </p>
-                  <p class="text-block-desc mb-20">
-                    We offer end-to-end Enterprise Product Suite from CRM, Origination, Management and Collections.
-                  </p>
-                </div>
-                <div class="col-lg-5">
-                  <img class="w-100 rounded-2" src="assets/images/charts/7.png" alt="banking innovation">
 
+            </aside>
+          </div>
+          <!-- Tab Content -->
+
+          <div class="col-12 col-lg-8 scrollable-tabs ">
+            <div class="tab-content" id="productTabsContent">
+              <!-- Overview Tab -->
+              <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                <div class="text-block mb-50 ">
+                  <div class="banner-text mt-50">
+                    <div class="heading-layout2">
+                      <h5 class="heading-subtitle">Modern Technology Architecture</h5>
+                      <h2 class="text-block-title mb-30">Multi Cloud & On-Prem Flexibility</h2>
+
+                      <div class="d-flex align-items-start mb-3 gap-2">
+                        <ion-icon name="server-outline" size="large"
+                          class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                        <div>
+                          <h6 class="mb-1">On-Premise</h6>
+                          <p class="mb-0">Hosted in private data centers to ensure enhanced control,
+                            security, and compliance with regulatory requirements.</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex align-items-start gap-2">
+                        <ion-icon name="cloud-outline" size="large"
+                          class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                        <div>
+                          <h6 class="mb-1">Cloud-Based</h6>
+                          <p class="mb-0">Deployable on AWS and Microsoft Azure, ensuring compliance
+                            with
+                            regional regulations and data sovereignty standards.</p>
+                        </div>
+                      </div>
+
+                    </div><!-- /heading -->
+                  </div><!-- /.banner-text -->
+                </div><!-- /.col-xl-5 -->
+              </div>
+              <!-- Foundation Tab -->
+              <div class="tab-pane fade " id="foundation" role="tabpanel">
+                <div class="text-block mb-50">
+                  <h5 class="  heading-subtitle">Modern Technology Architecture</h5>
+                  <h2 class="  text-block-title mb-30">Security</h2>
+                  <p class="">
+                    We employ a robust, multi-layered security framework to safeguard financial data against
+                    unauthorized access, cyber threats, and human error.
+                  </p>
+
+                  <!-- Card 1: Resilient Security Architecture -->
+                  <div class="col-12">
+                    <div class="pricing-package featured">
+                      <div class="package-body">
+                        <h4 class="package-title">Resilient Security Architecture</h4>
+                        <div class="package-desc">
+                          <ul class="list-unstyled">
+                            <li><ion-icon name="shield-checkmark-outline" class="me-2 text-primary"></ion-icon> ISO
+                              27001 compliance (in
+                              progress)</li>
+                            <li><ion-icon name="lock-closed-outline" class="me-2 text-primary"></ion-icon> TLS
+                              encryption and hashing
+                              algorithms (SHA-256/512)</li>
+                            <li><ion-icon name="card-outline" class="me-2 text-primary"></ion-icon>
+                              PCI DSS compliant system (in progress)</li>
+                            <li><ion-icon name="hardware-chip-outline" class="me-2 text-primary"></ion-icon> Network &
+                              intrusion
+                              protection:
+                              <ul class="mt-2 ms-4">
+                                <li><ion-icon name="filter-outline" class="me-2 text-secondary"></ion-icon> IP filtering
+                                </li>
+                                <li><ion-icon name="flame-outline" class="me-2 text-secondary"></ion-icon> Firewalls
+                                </li>
+                                <li><ion-icon name="pulse-outline" class="me-2 text-secondary"></ion-icon> IDS and WAF
+                                </li>
+                                <li><ion-icon name="browsers-outline" class="me-2 text-secondary"></ion-icon> Browser
+                                  access
+                                  control</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 2: Robust Code Quality & Security Testing -->
+                  <div class="col-12">
+                    <div class="pricing-package featured">
+                      <div class="package-body">
+                        <h4 class="package-title">Robust Code Quality & Security Testing</h4>
+                        <div class="package-desc">
+                          <ul class="list-unstyled">
+                            <li><ion-icon name="analytics-outline" class="me-2 text-primary"></ion-icon> SonarQube for
+                              continuous
+                              code analysis</li>
+                            <li><ion-icon name="shield-half-outline" class="me-2 text-primary"></ion-icon> OWASP Top 20
+                              compliance
+                              for threat mitigation</li>
+                            <li><ion-icon name="construct-outline" class="me-2 text-primary"></ion-icon> Comprehensive
+                              unit and
+                              integration testing</li>
+                            <li><ion-icon name="speedometer-outline" class="me-2 text-primary"></ion-icon> Performance
+                              testing for
+                              scalability and stability</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 3: Controlled Access for Clients & Staff -->
+                  <div class="col-12">
+                    <div class="pricing-package featured">
+                      <div class="package-body">
+                        <h4 class="package-title">Controlled Access for Clients & Staff</h4>
+                        <div class="package-desc">
+                          <ul class="list-unstyled">
+                            <li><ion-icon name="person-circle-outline" class="me-2 text-primary"></ion-icon>
+                              Configurable role-based
+                              access control (RBAC)</li>
+                            <li><ion-icon name="key-outline" class="me-2 text-primary"></ion-icon>
+                              OAuth 2.0 authentication protocol</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.text-block -->
+
+              </div>
+              <!-- CRM Tab -->
+              <div class="tab-pane fade" id="crm" role="tabpanel">
+
+                <h5 class="heading-subtitle">Modern Technology Architecture</h5>
+                <h2 class="text-block-title mb-30">Modular Architecture</h2>
+
+                <div class="d-flex align-items-start mb-3 gap-2">
+                  <ion-icon name="layers-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Modular Component Design</h6>
+                    <p class="mb-0">Independent modules and components enable selective adoption and rapid updates
+                      without affecting the entire platform's stability.</p>
+                  </div>
                 </div>
+
+                <div class="d-flex align-items-start mb-3 gap-2">
+                  <ion-icon name="cloud-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Efficient Data Management</h6>
+                    <p class="mb-0">A highly scalable MongoDB database offering the cost-efficient benefits of NoSQL
+                      architecture.</p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-start mb-3 gap-2">
+                  <ion-icon name="pulse-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Event-Driven Architecture</h6>
+                    <p class="mb-0">The enterprise message bus (Kafka) enables efficient, real-time communication across
+                      the system while minimizing direct dependencies.</p>
+                  </div>
+                </div>
+
+                <div class="d-flex align-items-start mb-3 gap-2">
+                  <ion-icon name="git-branch-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Microservices Oriented Architecture</h6>
+                    <p class="mb-0">Each service focuses on a specific business function, enabling scalability,
+                      flexibility, and resilience.</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <!-- Origination Tab -->
+              <div class="tab-pane fade" id="origination" role="tabpanel">
+                <h5 class="heading-subtitle">Modern Technology Architecture</h5>
+                <h2 class="text-block-title mb-30">Modular Architecture</h2>
+                <!-- Front End -->
+                <div class="d-flex align-items-start mb-4 gap-2">
+                  <ion-icon name="code-slash-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Front End</h6>
+                    <p class="mb-0">
+                      <strong>Frameworks:</strong> ASP.NET Web Forms<br>
+                      <strong>Languages:</strong> JavaScript, jQuery<br>
+                      <strong>Styling:</strong> HTML, CSS, Bootstrap
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Backend & Middleware -->
+                <div class="d-flex align-items-start mb-4 gap-2">
+                  <ion-icon name="server-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Backend & Middleware</h6>
+                    <p class="mb-0">
+                      <strong>Server Technologies:</strong> .NET Core<br>
+                      <strong>Microservices:</strong> Kubernetes, Docker<br>
+                      <strong>Messaging:</strong> Kafka<br>
+                      <strong>Monitoring:</strong> Grafana, Prometheus
+                    </p>
+                  </div>
+                </div>
+
+                <!-- API Layer -->
+                <div class="d-flex align-items-start mb-4 gap-2">
+                  <ion-icon name="git-network-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">API Layer</h6>
+                    <p class="mb-0">
+                      <strong>API Standards:</strong> Open API, SWAGGER<br>
+                      <strong>Endpoints:</strong> 100+ API endpoints<br>
+                      <strong>Architecture:</strong> RESTful
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Database -->
+                <div class="d-flex align-items-start mb-4 gap-2">
+                  <ion-icon name="cube-outline" size="large"
+                    class="me-2 px-3 text-primary fs-2 ion-icon-custom"></ion-icon>
+                  <div>
+                    <h6 class="mb-1">Database</h6>
+                    <p class="mb-0">
+                      <strong>Operational DB:</strong> MongoDB<br>
+                      <strong>Enterprise Message Bus:</strong> Kafka
+                    </p>
+                  </div>
+                </div>
+
+
               </div>
 
-              <h4>Digital and Hyper personalized Customer Journeys</h4>
-              <p class="text-block-desc mb-20">
-                Splendin offers end-to-end payment and lending journeys to enable personalized product offerings to
-                increase growth. Product parameters can be personalized from product level, scheme level, customer
-                segment level to an individual customer level. We can help personalize your customer journeys
-                covering user experience, policies, processes & API integration using our Designer Studio.
-              </p>
-              <h4>Expand business presence and increase customer engagement</h4>
-              <p class="text-block-desc mb-20">
-                Go-live in Weeks and not months. We offer a fully customizable platform right from product
-                configuration, Fee/charges setup, controls setup and more, via intuitive web-based application.
-                Splendin’s API first model gives flexibility to integrate with existing legacy systems and provide
-                modern customer experience.
-              </p>
-              <!-- /.col-md-6 -->
-
-              <!-- /.col-md-6 -->
-              <!-- /.row -->
             </div>
-            <!-- /.text-block -->
+
+
           </div>
-          <!-- /.col-lg-8 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
 
 
-    <section class="careers pt-4">
-      <div class="container">
-        <div class="row heading-layout2  mb-30">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <h2 class="heading-subtitle">Trust </h2>
-            <h3 class="heading-title pr-50">Why Splendin Platform for Banks and NBFCs?</h3>
-          </div><!-- /.col-lg-6 -->
-        </div>
 
-        <div class="row justify-content-center">
 
-          <!-- Microservices Architecture -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="layers-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Microservices Architecture</h4>
-            </div>
-          </div>
-
-          <!-- Fully Configurable Platform -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="build-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Fully Configurable Platform</h4>
-            </div>
-          </div>
-
-          <!-- Low-Code Approach -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="code-slash-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Low-Code Approach</h4>
-            </div>
-          </div>
-
-          <!-- API First Design -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="git-network-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">API First Design</h4>
-            </div>
-          </div>
-
-          <!-- Off-the-Shelf Foundation Model -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="cube-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Off-the-Shelf Foundation Model</h4>
-            </div>
-          </div>
-
-          <!-- Scalable and Faster-to-Market -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="trending-up-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Scalable and Faster-to-Market</h4>
-            </div>
-          </div>
-        </div>
-      </div><!-- /.container -->
-    </section>
 
     <footer class="footer">
       <div class="footer-primary">
@@ -438,10 +565,10 @@
                   <ul class="footer-nav-list list-unstyled">
                     <li><a href="payment-solutions.html">Card Issuing</a></li>
                     <li><a href="lending-solutions.html">Consumer Loan</a></li>
-                    <li><a href="lending-solutions.html">UPI Credit Line</a></li>
-                    <li><a href="lending-solutions.html">Personal Loan</a></li>
+                    <li><a href="lending-solutions.html">Credit Line on UPI</a></li>
+                    <!--<li><a href="lending-solutions.html">Personal Loan</a></li>
                     <li><a href="payment-solutions.html">Loyalty Card</a></li>
-                    <li><a href="lending-solutions.html">Cosumer Durable Loan</a></li>
+                    <li><a href="lending-solutions.html">Cosumer Durable Loan</a></li>-->
                   </ul>
                 </nav>
               </div><!-- /.footer-widget-nav -->
@@ -514,6 +641,7 @@
         </div><!-- /.container -->
       </div><!-- /.footer-secondary -->
     </footer>
+    <!-- /.Footer -->
   </div>
   <!-- /.wrapper -->
   <!-- Search offcanvas -->
@@ -523,7 +651,7 @@
         <button class="search-btn">
           <i class="icon-search"></i>
         </button>
-        <input type="text" class="form-control" placeholder="Type Words Then Enter..." autofocus />
+        <input type="text" class="form-control" placeholder="Type Words Then Enter..." autofocus>
       </form>
       <button type="button" class="close-search" data-bs-dismiss="offcanvas" aria-label="Close">
         <i class="icon-close"></i>
@@ -538,12 +666,13 @@
     </div>
     <div class="offcanvas-body">
       <div class="bg-img">
-        <img src="assets/images/logo/logo-light-bg.png" alt="" />
+        <img src="assets/images/logo/logo-light-bg.png" alt="">
       </div>
-      <img src="assets/images/logo/logo-dark.png" class="sidemenu-logo" alt="logo" width="140" />
+      <img src="assets/images/logo/logo-dark.png" class="sidemenu-logo" alt="logo" width="140">
       <h5 class="sidemenu-title">
-        Global consulting firm experienced in identifying, assessing, and
-        solving all your business challenges!
+        Global consulting firm experienced in identifying, assessing, and solving all your
+        business
+        challenges!
       </h5>
       <a href="contact-us.html" class="btn btn-primary arrow-hover-flip-up">
         <span>Get Started</span>
@@ -593,11 +722,26 @@
     <!-- /.offcanvas-body -->
   </div>
   <!-- /.Side Menu offcanvas -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="assets/js/libraries.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelectorAll('#productTabs .nav-link').forEach(link => {
+      link.addEventListener('click', function () {
+        setTimeout(() => {
+          const tabContent = document.querySelector('.tab-content');
+          if (tabContent) {
+            const yOffset = -100; // Scroll 100px above the element
+            const y = tabContent.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        }, 100); // Slight delay to ensure tab content has changed
+      });
+    });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
 </body>
 
 </html>

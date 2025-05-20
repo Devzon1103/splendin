@@ -5921,15 +5921,17 @@ input[type=radio] {
 }
 .team-layout2 .member .social-icons {
   --space-x: 11px;
-  --icon-color: var(--color-primary);
-  --icon-color-hover: var(--color-secondary);
-  opacity: 0;
-  transform: scale(0.5);
+  --icon-color-hover: var(--color-primary);
+  --icon-color: var(--color-secondary);
+  opacity: 1;
+  transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
 .team-layout2 .member:hover .social-icons {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1.1);
+    --icon-color: var(--color-primary);
+  --icon-color-hover: var(--color-secondary);
 }
 
 /* Mobile Phones and tablets */
@@ -9182,7 +9184,7 @@ td p{
 }
 
 
-.job-item::after {
+.about-job-item::after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -9209,4 +9211,8 @@ td p{
   padding: 16px;
   transition: background-color 0.3s, color 0.3s;
   color: var(--color-primary); 
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }

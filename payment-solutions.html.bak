@@ -38,13 +38,8 @@
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-           <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
-               <li class="nav-item d-md-none mb-3">
-                    <a  href="index.html" class="nav-item-link">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
-                    </a>
-                  </li>
+            <ul class="navbar-nav ms-auto">
+
               <li class="nav-item has-dropdown">
                 <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
                 <ul class="dropdown-menu">
@@ -66,41 +61,40 @@
                 <a href="payment-solutions.html" data-bs-toggle="dropdown"
                   class="dropdown-toggle nav-item-link">Solutions</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
-                 
                   <li class="nav-item">
                     <div class="row mx-0">
                       <div class="col-sm-6 dropdown-menu-col">
-                        <a href="payment-solutions.html" class="nav-item-link dropdown-menu-title">Payment</a>
+                        <a href="payment-solutions.html" class="nav-item-link dropdown-menu-title">Payment Solution</a>
                         <ul class="nav flex-column">
                           <li class="nav-item">
                             <a class="nav-item-link" href="payment-solutions.html">Card Issuing</a>
                           </li> <!-- /.nav-item -->
-                          <!--<li class="nav-item">
+                          <li class="nav-item">
                             <a class="nav-item-link" href="payment-solutions.html">Debit Card</a>
-                          </li> <!-- /.nav-item --
+                          </li> <!-- /.nav-item -->
                           <li class="nav-item">
                             <a class="nav-item-link" href="payment-solutions.html">Prepaid Card</a>
-                          </li> <!-- /.nav-item --
+                          </li> <!-- /.nav-item -->
                           <li class="nav-item">
                             <a class="nav-item-link" href="payment-solutions.html">Loyalty Card</a>
-                          </li>--> <!-- /.nav-item -->
+                          </li> <!-- /.nav-item -->
                         </ul>
                       </div><!-- /.col-sm-6 -->
                       <div class="col-sm-6 dropdown-menu-col">
-                        <a href="lending-solutions.html" class="nav-item-link dropdown-menu-title">Lending</a>
+                        <a href="lending-solutions.html" class="nav-item-link dropdown-menu-title">Lending Solution</a>
                         <ul class="nav flex-column">
                           <li class="nav-item">
                             <a class="nav-item-link" href="lending-solutions.html">Cosumer Loan</a>
                           </li> <!-- /.nav-item -->
                           <li class="nav-item">
-                            <a class="nav-item-link" href="lending-solutions.html">Credit Line on UPI</a>
+                            <a class="nav-item-link" href="lending-solutions.html">UPI Credit Line</a>
                           </li> <!-- /.nav-item -->
-                          <!--<li class="nav-item">
+                          <li class="nav-item">
                             <a class="nav-item-link" href="lending-solutions.html">Personal Loan</a>
-                          </li> <!-- /.nav-item --
+                          </li> <!-- /.nav-item -->
                           <li class="nav-item">
                             <a class="nav-item-link" href="lending-solutions.html">Cosumer Durable Loan</a>
-                          </li>--> <!-- /.nav-item -->
+                          </li> <!-- /.nav-item -->
                           <!-- /.nav-item -->
                         </ul>
                       </div><!-- /.col-sm-6 -->
@@ -116,13 +110,6 @@
               </li><!-- /.nav-item -->
               <li class="nav-item d-md-none">
                 <a href="contact-us.html" class="nav-item-link">Contact Us</a>
-              </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <span  class="nav-item-link">
-
-                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
-                  <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
-                </span>
               </li><!-- /.nav-item -->
 
             </ul><!-- /.navbar-nav -->
@@ -319,7 +306,7 @@
                           <strong>Easy to Setup, Ease to Use Platform</strong>
                         </th>
                         <th class="bg-primary fs-5">
-                          <strong>Faster Application Processing</strong>
+                          <strong>Faster Application processing</strong>
                         </th>
                       </tr>
                     </thead>

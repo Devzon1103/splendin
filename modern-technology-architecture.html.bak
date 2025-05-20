@@ -38,13 +38,7 @@
                         <span class="menu-lines"><span></span></span>
                     </button>
                     <div class="collapse navbar-collapse" id="mainNavigation">
-                     <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
-               <li class="nav-item d-md-none mb-3">
-                    <a  href="index.html" class="nav-item-link">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
-                    </a>
-                  </li>
+                       <ul class="navbar-nav ms-auto">
               <li class="nav-item has-dropdown">
                 <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
                 <ul class="dropdown-menu">
@@ -66,7 +60,6 @@
                 <a href="payment-solutions.html" data-bs-toggle="dropdown"
                   class="dropdown-toggle nav-item-link">Solutions</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
-                 
                   <li class="nav-item">
                     <div class="row mx-0">
                       <div class="col-sm-6 dropdown-menu-col">
@@ -116,13 +109,6 @@
               </li><!-- /.nav-item -->
               <li class="nav-item d-md-none">
                 <a href="contact-us.html" class="nav-item-link">Contact Us</a>
-              </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <span  class="nav-item-link">
-
-                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
-                  <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
-                </span>
               </li><!-- /.nav-item -->
 
             </ul><!-- /.navbar-nav -->
@@ -260,7 +246,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="#"
+                                    <a href="https://7oroof.com/cdn-cgi/l/email-protection#e48588888d858a9ea4d38b968b8b82ca878b89"
                                         class="phone-number mt-30 mb-0">
                                         <i class="icon-email"></i>
                                         <span class="mx-2">

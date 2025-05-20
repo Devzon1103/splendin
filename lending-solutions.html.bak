@@ -2,29 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description"
-    content="Splendin - Creating a world class technology platform which can add significant value to its stakeholders" />
-  <link rel="icon" href="assets/images/favicon/favicon.png" />
-  <title>Industry - Splendin | Next-Gen Payment & Lending Platform</title>
+    content="Splendin - Creating a world class technology platform which can add significant value to its stakeholders">
+  <link rel="icon" href="assets/images/favicon/favicon.png">
+  <title>Lending Solutions - Splendin | Next-Gen Payment & Lending Platform</title>
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Unbounded:wght@400;500;700&amp;display=swap" />
-  <link rel="stylesheet" href="assets/css/libraries.css" />
-  <link rel="stylesheet" href="assets/css/icons.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Unbounded:wght@400;500;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="loading">
-        <img src="assets/images/logo/logo-light-bg.png" id="myDIV" alt="logo" />
+        <img src="assets/images/logo/logo-light-bg.png" id="myDIV" alt="logo">
       </div>
-    </div>
+    </div> -->
     <!-- /.preloader -->
-    <header class="header header-transparent header-layout1">
+    <!-- =========================
+        Header
+    =========================== -->
+       <header class="header header-transparent header-layout1">
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -35,13 +38,8 @@
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-             <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
-               <li class="nav-item d-md-none mb-3">
-                    <a  href="index.html" class="nav-item-link">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
-                    </a>
-                  </li>
+            <ul class="navbar-nav ms-auto">
+
               <li class="nav-item has-dropdown">
                 <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
                 <ul class="dropdown-menu">
@@ -63,7 +61,6 @@
                 <a href="payment-solutions.html" data-bs-toggle="dropdown"
                   class="dropdown-toggle nav-item-link">Solutions</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
-                 
                   <li class="nav-item">
                     <div class="row mx-0">
                       <div class="col-sm-6 dropdown-menu-col">
@@ -114,13 +111,6 @@
               <li class="nav-item d-md-none">
                 <a href="contact-us.html" class="nav-item-link">Contact Us</a>
               </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <span  class="nav-item-link">
-
-                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
-                  <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
-                </span>
-              </li><!-- /.nav-item -->
 
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-flex justify-content-center align-items-center d-lg-none">
@@ -163,25 +153,22 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header>
-    <!-- ========================
-       page title 
-    =========================== -->
+    <!-- /.Header -->
+    <!-- page title  -->
     <section class="page-title-layout4 page-title-light bg-parallax bg-overlay">
       <div class="bg-img">
-        <img src="assets/images/page-titles/7.webp" alt="background" />
+        <img src="assets/images/page-titles/5.webp" alt="background">
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1 class="pagetitle-heading">Industry Overview</h1>
+          <div class="col-12 col-lg-6">
+            <h1 class="pagetitle-heading">Lending Solutions </h1>
             <nav>
               <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item">
                   <a href="index.html">Home</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Industry
-                </li>
+                <li class="breadcrumb-item active" aria-current="page">Lending Solutions</li>
               </ol>
             </nav>
           </div>
@@ -191,50 +178,43 @@
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.page-title -->
-    <section class="pb-80">
+    <section class="pb-0">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4">
+          <!-- Tab Navigation -->
+          <div class="col-12 col-lg-4">
             <aside class="sidebar has-marign-right sticky-top mb-30">
-              <div class="widget widget-categories">
-                <h5 class="widget-title">Industry Overview</h5>
+              <div class="widget widget-categories ">
+                <h5 class="widget-title">Lending Solutions</h5>
                 <div class="widget-content">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">
-                        <span>Overview</span>
+                  <ul class="nav flex-column nav-pills" id="productTabs" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="foundation-tab" data-bs-toggle="pill" href="#foundation"
+                        role="tab">
+                        <span>Products</span>
                         <i class="icon-arrow-up-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="payment-solutions.html">
-                        <span>Payment Solutions</span>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="crm-tab" data-bs-toggle="pill" href="#crm" role="tab">
+                        <span>Modules</span>
                         <i class="icon-arrow-up-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="lending-solutions.html">
-                        <span>Lending Solutions</span>
-                        <i class="icon-arrow-up-right"></i>
-                      </a>
-                    </li>
+
                   </ul>
                 </div>
-                <!-- /.widget-content -->
               </div>
-              <!-- /.widget-categories -->
               <div class="widget widget-help bg-overlay bg-overlay-primary">
                 <div class="bg-img">
-                  <img src="assets/images/banners/5.webp" alt="background" />
+                  <img src="assets/images/banners/5.webp" alt="background">
                 </div>
                 <div class="widget-content">
-                  <h4 class="widget-title">
-                    Tailored Solutions For Your Security Priorities
-                  </h4>
+                  <h4 class="widget-title">Tailored Solutions For Your Security Priorities</h4>
                   <p class="widget-desc mb-50">
-                    We will design, install, and upgrade solutions to meet
-                    business specific needs and budgets from large.
+                    We will design, install, and upgrade solutions to meet business specific needs and budgets from
+                    large.
                   </p>
                   <a href="contact-us.html"
                     class="btn btn-white btn-xl btn-block justify-content-between same-hover arrow-hover-flip-up">
@@ -253,7 +233,7 @@
                       </g>
                     </svg>
                   </a>
-                  <a href="#"
+                  <a href="https://7oroof.com/cdn-cgi/l/email-protection#e48588888d858a9ea4d38b968b8b82ca878b89"
                     class="phone-number mt-30 mb-0">
                     <i class="icon-email"></i>
                     <span class="mx-2">
@@ -264,123 +244,308 @@
                 </div>
                 <!-- /.widget-content -->
               </div>
-              <!-- /.widget-help -->
             </aside>
-            <!-- /.sidebar -->
           </div>
-          <!-- /.col-lg-4 -->
-          <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="text-block mb-30">
-              <div class="row mb-30">
-                <div class="col-12  col-lg-7 pr-xl-60">
-                  <h2 class="heading-subtitle">Industry Overview</h2>
-                  <h3 class=" mb-30">Banks & NBFCs</h3>
-                  <p class="text-block-desc mb-20">
-                    Splendin offers a modern off-the-shelf Enterprise Product
-                    Suite customizable to Banks and NBFCs for payments and
-                    lending products.
-                  </p>
-                  <p class="text-block-desc mb-20">
-                    We offer end-to-end Enterprise Product Suite from CRM, Origination, Management and Collections.
-                  </p>
-                </div>
-                <div class="col-lg-5">
-                  <img class="w-100 rounded-2" src="assets/images/charts/7.png" alt="banking innovation">
+          <!-- Tab Content -->
 
+          <div class="col-12 col-lg-8 scrollable-tabs ">
+            <div class="tab-content" id="productTabsContent">
+
+
+
+              <!-- Foundation Tab -->
+              <div class="tab-pane pb-4 fade show active " id="foundation" role="tabpanel">
+                <div class="text-block mb-30">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-7 pr-xl-60">
+                      <h2 class="heading-subtitle ">
+                        Lending Solutions
+                      </h2>
+                      <h5 class="text-block-title">Consumer Lending</h5>
+                      <p class="text-block-desc mb-20">
+                        Launch personal loans, consumer durable loans and more… with next generation Lending platform.
+                        End-to-end platform from loan origination, loan management and loan collections.
+                      </p>
+                      <h2 class="heading-subtitle mt-4"> Lending Solution</h2>
+                      <h4>Products</h5>
+                        <p class="text-block-desc mb-20">
+                          Splendin Lending solution offers multiple consumer loans products to customers.
+                        </p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                      <img src="assets/images/gallery/loan-vector.jpg" alt="cards">
+                    </div>
+                  </div>
+                  <h5 class="text-block-title mb-3">Benefits</h5>
+                  <div class="row justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="job-item text-center">
+                        <ion-icon name="cash-outline" size="large"></ion-icon>
+                        <h4 class="job-title mt-2">Flexible Credit Line</h4>
+                      </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="job-item text-center">
+                        <ion-icon name="bar-chart-outline" size="large"></ion-icon>
+                        <h4 class="job-title mt-2">Increased Revenue</h4>
+                      </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="job-item text-center">
+                        <ion-icon name="build-outline" size="large"></ion-icon>
+                        <h4 class="job-title mt-2">Flexible Configuration</h4>
+                      </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="job-item text-center">
+                        <ion-icon name="chatbubbles-outline" size="large"></ion-icon>
+                        <h4 class="job-title mt-2">Improve Customer Engagement</h4>
+                      </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="job-item text-center">
+                        <ion-icon name="pricetag-outline" size="large"></ion-icon>
+                        <h4 class="job-title mt-2">Cost <br> Efficiency</h4>
+                        <br>
+                      </div>
+                    </div>
+
+                    <!-- Card 6 -->
+
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                      <div class="job-item text-center">
+                        <ion-icon name="trending-up-outline" size="large"></ion-icon>
+                        <h4 class="job-title mt-2">Boost Credit Score for NTB Customers</h4>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                  <h2 class="heading-subtitle mt-4 "> Lending Solutions</h2>
+                  <h5 class="text-block-title ">Lending product solutions</h5>
+
+                  <div class="row packages-wrapper">
+
+                    <div class="col-12">
+                      <div class="pricing-package featured">
+                        <div class="package-body">
+                          <h4 class="package-title">UPI Credit Line</h4>
+                          <p class="package-desc">
+                            Explore New Lines of Credit with our “UPI Credit Line” product solution that helps
+                            businesses to enable credit on UPI rails. With Splendin Enterprise Product Suite, businesses
+                            can set up, access, and provide immediate credit access to their customers on UPI.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="pricing-package featured">
+                        <div class="package-body">
+                          <h4 class="package-title">Personal Loan</h4>
+                          <p class="package-desc">
+                            Consumers demand quick and hassle-free lending options from businesses. Splendin Personal
+                            Loan solution's in-built features enable simple and easy loan journeys that empower
+                            businesses to capture, process, and disburse loans quickly.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="pricing-package featured">
+                        <div class="package-body">
+                          <h4 class="package-title">Consumer Durable Loan</h4>
+                          <p class="package-desc">
+                            Consumers are looking for loans to purchase durable products seamlessly in this digital
+                            world. Splendin Consumer Durable Loan solution helps businesses quickly assess customer
+                            creditworthiness, implement rule-based lending journeys, and enable instant loans.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
               </div>
+              <!-- CRM Tab -->
+              <div class="tab-pane fade pb-4" id="crm" role="tabpanel">
+                <div class="row">
+                  <div class="col-sm-12 col-md-7 pr-xl-60">
+                    <h2 class="heading-subtitle "> Modules</h2>
+                    <h5>Loan Origination</h5>
+                    <p class="text-block-desc mb-20">
+                      Simplified lending experience, right from documentation, qualification and disbursement of funds,
+                      for business to quickly launch the products.
+                      Digital customer journeys to support complex business loan processing needs and flexible
+                      origination system to set up application processing rules, connect with bureaus for specific
+                      customer data and quick application decisioning.
+                    </p>
 
-              <h4>Digital and Hyper personalized Customer Journeys</h4>
-              <p class="text-block-desc mb-20">
-                Splendin offers end-to-end payment and lending journeys to enable personalized product offerings to
-                increase growth. Product parameters can be personalized from product level, scheme level, customer
-                segment level to an individual customer level. We can help personalize your customer journeys
-                covering user experience, policies, processes & API integration using our Designer Studio.
-              </p>
-              <h4>Expand business presence and increase customer engagement</h4>
-              <p class="text-block-desc mb-20">
-                Go-live in Weeks and not months. We offer a fully customizable platform right from product
-                configuration, Fee/charges setup, controls setup and more, via intuitive web-based application.
-                Splendin’s API first model gives flexibility to integrate with existing legacy systems and provide
-                modern customer experience.
-              </p>
-              <!-- /.col-md-6 -->
+                  </div>
+                  <div class="col-sm-6 col-md-5">
+                    <img src="assets/images/gallery/loan-vector.jpg" alt="loans">
+                  </div>
+                </div>
+                <h2 class="heading-subtitle "> Modules</h2>
+                <h5>Features</h5>
 
-              <!-- /.col-md-6 -->
-              <!-- /.row -->
+                <table class="table table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-primary" style="background-color:#e68a03;">
+                      <th class="bg-primary">
+                        <strong>Easy to setup, ease to use platform</strong>
+                      </th>
+                      <th class="bg-primary">
+                        <strong>Faster Application processing</strong>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>Single platform supports complete loan origination capabilities.</p>
+                      </td>
+                      <td>
+                        <p>Faster turnaround time to process the loan applications.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Fully Digital, Paperless solution</strong> </p>
+                      </td>
+                      <td>
+                        <p><strong>Seamless Integration for Data Sourcing</strong></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Full digital application processing solution</p>
+                      </td>
+                      <td>
+                        <p>Seamlessly Integrate with various application sources via API designer solution</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>API integrations</strong></p>
+                      </td>
+                      <td>
+                        <p><strong>Cross-Sell Offers</strong></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Integrate with Credit Bureaus, Fraud and Social information systems in real-time</p>
+                      </td>
+                      <td>
+                        <p>Hyper personalized cross sell (up-sell or down-sell) offerings for better suitable products
+                          to customers</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Under Writing Queue Mechanisms</strong></p>
+                      </td>
+                      <td>
+                        <p><strong>Integrated Workflows</strong></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Easily set up under writing queues to review applications for additional information or
+                          exception processing</p>
+                      </td>
+                      <td>
+                        <p>Define credit policy workflows for application processing</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h2 class="heading-subtitle mt-4"> Modules</h2>
+                <h4 class="mb-0">Loan Collections</h4>
+                <p class="text-block-desc mb-20">
+                  Boost collection debt recovery using Splendin Loan Collection.
+                </p>
+
+                <h5>Features</h5>
+                <table class="table table-bordered table-hover">
+                  <thead>
+                    <tr  style="background-color:#e68a03;">
+                      <th class="bg-primary"><strong>Low Code Platform</strong></th>
+                      <th class="bg-primary"><strong>Collection Strategy</strong></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>Set up the configuration and push the change instantly via Low Code platform in near real
+                          time.</p>
+                      </td>
+                      <td>
+                        <p>Setup strategies for effective collection recoveries</p>
+                        <p></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Skip Tracing</strong></p>
+                      </td>
+                      <td>
+                        <p><strong>Agency Management</strong></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Locate Skip customers using Digital / Credit Bureau Data</p>
+                      </td>
+                      <td>
+                        <p>Manage 3<span data-fontsize="14">rd Agency integration, collection performance tracking and
+                            payments</span></p>
+                        <p></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>Reminder Calling</strong></p>
+                      </td>
+                      <td>
+                        <p><strong>Soft Collection and Hard Collection</strong></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Predictive/reminder calling to boost the recovery rate</p>
+                      </td>
+                      <td>
+                        <p>Support for soft collection and hard collection.</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+
             </div>
-            <!-- /.text-block -->
           </div>
-          <!-- /.col-lg-8 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
-
-
-    <section class="careers pt-4">
-      <div class="container">
-        <div class="row heading-layout2  mb-30">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <h2 class="heading-subtitle">Trust </h2>
-            <h3 class="heading-title pr-50">Why Splendin Platform for Banks and NBFCs?</h3>
-          </div><!-- /.col-lg-6 -->
-        </div>
-
-        <div class="row justify-content-center">
-
-          <!-- Microservices Architecture -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="layers-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Microservices Architecture</h4>
-            </div>
-          </div>
-
-          <!-- Fully Configurable Platform -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="build-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Fully Configurable Platform</h4>
-            </div>
-          </div>
-
-          <!-- Low-Code Approach -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="code-slash-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Low-Code Approach</h4>
-            </div>
-          </div>
-
-          <!-- API First Design -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="git-network-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">API First Design</h4>
-            </div>
-          </div>
-
-          <!-- Off-the-Shelf Foundation Model -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="cube-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Off-the-Shelf Foundation Model</h4>
-            </div>
-          </div>
-
-          <!-- Scalable and Faster-to-Market -->
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="job-item text-center">
-              <ion-icon name="trending-up-outline" size="large"></ion-icon>
-              <h4 class="job-title mt-2">Scalable and Faster-to-Market</h4>
-            </div>
-          </div>
-        </div>
-      </div><!-- /.container -->
-    </section>
-
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-primary">
         <div class="container">
@@ -438,10 +603,10 @@
                   <ul class="footer-nav-list list-unstyled">
                     <li><a href="payment-solutions.html">Card Issuing</a></li>
                     <li><a href="lending-solutions.html">Consumer Loan</a></li>
-                    <li><a href="lending-solutions.html">UPI Credit Line</a></li>
-                    <li><a href="lending-solutions.html">Personal Loan</a></li>
+                    <li><a href="lending-solutions.html">Credit Line on UPI</a></li>
+                    <!--<li><a href="lending-solutions.html">Personal Loan</a></li>
                     <li><a href="payment-solutions.html">Loyalty Card</a></li>
-                    <li><a href="lending-solutions.html">Cosumer Durable Loan</a></li>
+                    <li><a href="lending-solutions.html">Cosumer Durable Loan</a></li>-->
                   </ul>
                 </nav>
               </div><!-- /.footer-widget-nav -->
@@ -497,13 +662,15 @@
                 <ul class="footer-copyright-links d-flex align-items-center list-unstyled flex-wrap my-2">
                   <li>
                     <a href="#">
-                      <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
+                      <img class="d-inline" width="30"
+                        src="assets/images/icons/Chennai.png" alt="chennai">
                       &nbsp; Chennai
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
+                      <img class="d-inline" width="30"
+                        src="assets/images/icons/Mumbai.png" alt="mumbai">
                       &nbsp; Mumbai
                     </a>
                   </li>
@@ -523,7 +690,7 @@
         <button class="search-btn">
           <i class="icon-search"></i>
         </button>
-        <input type="text" class="form-control" placeholder="Type Words Then Enter..." autofocus />
+        <input type="text" class="form-control" placeholder="Type Words Then Enter..." autofocus>
       </form>
       <button type="button" class="close-search" data-bs-dismiss="offcanvas" aria-label="Close">
         <i class="icon-close"></i>
@@ -538,12 +705,13 @@
     </div>
     <div class="offcanvas-body">
       <div class="bg-img">
-        <img src="assets/images/logo/logo-light-bg.png" alt="" />
+        <img src="assets/images/logo/logo-light-bg.png" alt="">
       </div>
-      <img src="assets/images/logo/logo-dark.png" class="sidemenu-logo" alt="logo" width="140" />
+      <img src="assets/images/logo/logo-dark.png" class="sidemenu-logo" alt="logo" width="140">
       <h5 class="sidemenu-title">
-        Global consulting firm experienced in identifying, assessing, and
-        solving all your business challenges!
+        Global consulting firm experienced in identifying, assessing, and solving all your
+        business
+        challenges!
       </h5>
       <a href="contact-us.html" class="btn btn-primary arrow-hover-flip-up">
         <span>Get Started</span>
@@ -569,7 +737,7 @@
           </a>
         </li>
         <li>
-          <a href="tel:00201161145741">+2 011 6114 5741</a>
+          <a href="tel:00201161145741">+91 98765 43210</a>
         </li>
       </ul>
       <ul class="social-icons list-unstyled mb-0">
@@ -593,11 +761,26 @@
     <!-- /.offcanvas-body -->
   </div>
   <!-- /.Side Menu offcanvas -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="assets/js/libraries.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelectorAll('#productTabs .nav-link').forEach(link => {
+      link.addEventListener('click', function () {
+        setTimeout(() => {
+          const tabContent = document.querySelector('.tab-content');
+          if (tabContent) {
+            const yOffset = -100; // Scroll 100px above the element
+            const y = tabContent.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        }, 100); // Slight delay to ensure tab content has changed
+      });
+    });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
 </body>
 
 </html>
