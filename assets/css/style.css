@@ -4263,10 +4263,8 @@ input[type=radio] {
   }
 
   #mainNavigation ul li:not(:first-child) {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
+    padding-right: 10dvw;
+  }
 
 
   .navbar .nav-item .nav-item-link[data-bs-toggle=dropdown]:after {
@@ -10474,7 +10472,6 @@ td p {
 
 .ion-icon-custom {
   font-size: 42px;
-  color: #00b0ef;
   background-color: #f0f4f8;
   border-radius: 50%;
   padding: 16px;
@@ -10490,4 +10487,15 @@ td p {
   border-radius: 5px;
   --btn-height: 40px;
   --btn-min-width: 250px;
+}
+.nav-icon{
+  font-size: 16px;
+  background-color: #f0f4f8;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 5px;
+  margin-top: 8px;
+  transform: translateY(10px);
+  transition: background-color 0.3s, color 0.3s;
+  color: var(--color-primary);
 }

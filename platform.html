@@ -27,7 +27,7 @@
     <!-- =========================
         Header
     =========================== -->
-    <header class="header header-transparent header-layout1">
+   <header class="header header-transparent header-layout1">
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -38,15 +38,20 @@
             <span class="menu-lines"><span></span></span>
           </button>
           <div class="collapse navbar-collapse" id="mainNavigation">
-             <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
-               <li class="nav-item d-md-none mb-3">
-                    <a  href="index.html" class="nav-item-link">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-                      <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
-                    </a>
-                  </li>
+            <ul class="navbar-nav ms-auto pt-3 pt-lg-1">
+              <li class="nav-item d-md-none mb-3">
+                <a href="index.html" class="nav-item-link">
+                  <img style="max-width: 75% !important;" src="assets/images/logo/logo-light.png" class="logo-light"
+                    alt="logo">
+                  <img style="max-width: 75% !important;" src="assets/images/logo/logo-dark.png" class="logo-dark"
+                    alt="logo">
+                </a>
+              </li>
               <li class="nav-item has-dropdown">
-                <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">Platform</a>
+                <a href="platform.html" data-bs-toggle="dropdown" class="dropdown-toggle nav-item-link">
+                  <ion-icon class="d-lg-none nav-icon" name="apps-outline"></ion-icon>
+                  Platform
+                </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
                     <a href="platform.html" class="nav-item-link">Platform Overview</a>
@@ -64,9 +69,12 @@
               </li><!-- /.nav-item -->
               <li class="nav-item has-dropdown">
                 <a href="payment-solutions.html" data-bs-toggle="dropdown"
-                  class="dropdown-toggle nav-item-link">Solutions</a>
+                  class="dropdown-toggle nav-item-link">
+                  <ion-icon name="construct-outline" class="nav-icon d-lg-none"></ion-icon>
+
+                  Solutions</a>
                 <ul class="dropdown-menu wide-dropdown-menu">
-                 
+
                   <li class="nav-item">
                     <div class="row mx-0">
                       <div class="col-sm-6 dropdown-menu-col">
@@ -108,25 +116,46 @@
                   </li><!-- /.nav-item -->
                 </ul>
               </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <a href="industry.html" class="nav-item-link">Industry</a>
-              </li><!-- /.nav-item -->
-              <li class="nav-item">
-                <a href="about-us.html" class="nav-item-link">About Us</a>
-              </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <a href="contact-us.html" class="nav-item-link">Contact Us</a>
-              </li><!-- /.nav-item -->
-              <li class="nav-item d-md-none">
-                <span  class="nav-item-link">
 
-                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai">
-                  <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai">
-                </span>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-item-link">
+                  <ion-icon name="information-circle-outline" class="nav-icon d-lg-none"></ion-icon> About
+
+                </a>
               </li><!-- /.nav-item -->
+              <li class="nav-item d-md-none">
+                <a href="contact-us.html" class="nav-item-link">
+                  <ion-icon name="call-outline" class="nav-icon d-lg-none"></ion-icon> Contact Us
+
+                </a>
+              </li><!-- /.nav-item -->
+
+              <li class="nav-item d-md-none mt-2">
+                <span class="nav-item-link">
+                  <a class="text-dark " href="mailto:support@splendin.com">
+                    <ion-icon name="mail-outline" class="nav-icon text-dark d-lg-none"></ion-icon>
+                  support@splendin.com  
+                  </a>
+                </span>
+              </li>
+              <li class="nav-item d-md-none mb-3">
+                <span class="nav-item-link">
+                  <a class="text-dark " href="tel:+919876543210">
+                    <ion-icon name="call-outline" class="nav-icon text-dark d-lg-none"></ion-icon>
+                    +91 98765 43210</a>
+                </span>
+              </li>
+             
+              <li class="nav-item d-md-none">
+                <span class="nav-item-link">
+
+                  <img class="d-inline" width="30" src="assets/images/icons/Mumbai.png" alt="mumbai"> Mumbai &nbsp; &nbsp;
+                   <img class="d-inline" width="30" src="assets/images/icons/Chennai.png" alt="chennai"> Chennai
+                </span>
+              </li>
 
             </ul><!-- /.navbar-nav -->
-            <button class="close-mobile-menu d-flex justify-content-center align-items-center d-lg-none">
+            <button class=" close-mobile-menu d-flex justify-content-center align-items-center d-lg-none">
               <i class="icon-close"></i>
             </button>
           </div><!-- /.navbar-collapse -->
