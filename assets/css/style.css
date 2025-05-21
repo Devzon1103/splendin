@@ -4265,6 +4265,26 @@ input[type=radio] {
   #mainNavigation ul li:not(:first-child) {
     padding-right: 10dvw;
   }
+  /* Padding for all <li> except the first one */
+#mainNavigation ul li:not(:first-child) {
+  padding-right: 10dvw;
+}
+
+/* Add 80% border-bottom to 4th <li> */
+#mainNavigation ul li:nth-child(5) {
+  padding-bottom: 20px ;
+  position: relative;
+}
+
+#mainNavigation ul li:nth-child(5)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 1px;
+  background-color: var(--color-primary);
+}
 
 
   .navbar .nav-item .nav-item-link[data-bs-toggle=dropdown]:after {
